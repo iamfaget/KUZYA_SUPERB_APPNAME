@@ -28,9 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(292, 273);
+            this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.Text = "Form1";
+            this.UseWaitCursor = true;
+            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick_1);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
